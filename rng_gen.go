@@ -145,7 +145,7 @@ func %sUnion(x, y *%s) *%s {
 func main() {
 	alltypes := []string{"Int", "Int8", "Int16", "Int32", "Int64",
 		"Uint", "Uint8", "Uint16", "Uint32", "Uint64",
-		"Float32", "Float64", "Complex64", "Complex128"}
+		"Float32", "Float64"}
 	w := new(bytes.Buffer)
 	w.WriteString(pre)
 	for _, utype := range alltypes {
