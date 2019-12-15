@@ -93,8 +93,8 @@ func %sInter(x, y *%s) *%s {
 		r.end = x.end
 		r.endex = x.endex
 	} else if x.end == y.end {
-		r.start = x.start
-		r.startex = x.startex || y.startex
+		r.end = x.end
+		r.endex = x.endex || y.endex
 	} else {
 		r.end = y.end
 		r.endex = y.endex

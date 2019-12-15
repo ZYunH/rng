@@ -70,8 +70,8 @@ func IntInter(x, y *Int) *Int {
 		r.end = x.end
 		r.endex = x.endex
 	} else if x.end == y.end {
-		r.start = x.start
-		r.startex = x.startex || y.startex
+		r.end = x.end
+		r.endex = x.endex || y.endex
 	} else {
 		r.end = y.end
 		r.endex = y.endex
@@ -187,8 +187,8 @@ func Int8Inter(x, y *Int8) *Int8 {
 		r.end = x.end
 		r.endex = x.endex
 	} else if x.end == y.end {
-		r.start = x.start
-		r.startex = x.startex || y.startex
+		r.end = x.end
+		r.endex = x.endex || y.endex
 	} else {
 		r.end = y.end
 		r.endex = y.endex
@@ -304,8 +304,8 @@ func Int16Inter(x, y *Int16) *Int16 {
 		r.end = x.end
 		r.endex = x.endex
 	} else if x.end == y.end {
-		r.start = x.start
-		r.startex = x.startex || y.startex
+		r.end = x.end
+		r.endex = x.endex || y.endex
 	} else {
 		r.end = y.end
 		r.endex = y.endex
@@ -421,8 +421,8 @@ func Int32Inter(x, y *Int32) *Int32 {
 		r.end = x.end
 		r.endex = x.endex
 	} else if x.end == y.end {
-		r.start = x.start
-		r.startex = x.startex || y.startex
+		r.end = x.end
+		r.endex = x.endex || y.endex
 	} else {
 		r.end = y.end
 		r.endex = y.endex
@@ -538,8 +538,8 @@ func Int64Inter(x, y *Int64) *Int64 {
 		r.end = x.end
 		r.endex = x.endex
 	} else if x.end == y.end {
-		r.start = x.start
-		r.startex = x.startex || y.startex
+		r.end = x.end
+		r.endex = x.endex || y.endex
 	} else {
 		r.end = y.end
 		r.endex = y.endex
@@ -655,8 +655,8 @@ func UintInter(x, y *Uint) *Uint {
 		r.end = x.end
 		r.endex = x.endex
 	} else if x.end == y.end {
-		r.start = x.start
-		r.startex = x.startex || y.startex
+		r.end = x.end
+		r.endex = x.endex || y.endex
 	} else {
 		r.end = y.end
 		r.endex = y.endex
@@ -772,8 +772,8 @@ func Uint8Inter(x, y *Uint8) *Uint8 {
 		r.end = x.end
 		r.endex = x.endex
 	} else if x.end == y.end {
-		r.start = x.start
-		r.startex = x.startex || y.startex
+		r.end = x.end
+		r.endex = x.endex || y.endex
 	} else {
 		r.end = y.end
 		r.endex = y.endex
@@ -889,8 +889,8 @@ func Uint16Inter(x, y *Uint16) *Uint16 {
 		r.end = x.end
 		r.endex = x.endex
 	} else if x.end == y.end {
-		r.start = x.start
-		r.startex = x.startex || y.startex
+		r.end = x.end
+		r.endex = x.endex || y.endex
 	} else {
 		r.end = y.end
 		r.endex = y.endex
@@ -1006,8 +1006,8 @@ func Uint32Inter(x, y *Uint32) *Uint32 {
 		r.end = x.end
 		r.endex = x.endex
 	} else if x.end == y.end {
-		r.start = x.start
-		r.startex = x.startex || y.startex
+		r.end = x.end
+		r.endex = x.endex || y.endex
 	} else {
 		r.end = y.end
 		r.endex = y.endex
@@ -1123,8 +1123,8 @@ func Uint64Inter(x, y *Uint64) *Uint64 {
 		r.end = x.end
 		r.endex = x.endex
 	} else if x.end == y.end {
-		r.start = x.start
-		r.startex = x.startex || y.startex
+		r.end = x.end
+		r.endex = x.endex || y.endex
 	} else {
 		r.end = y.end
 		r.endex = y.endex
@@ -1240,8 +1240,8 @@ func Float32Inter(x, y *Float32) *Float32 {
 		r.end = x.end
 		r.endex = x.endex
 	} else if x.end == y.end {
-		r.start = x.start
-		r.startex = x.startex || y.startex
+		r.end = x.end
+		r.endex = x.endex || y.endex
 	} else {
 		r.end = y.end
 		r.endex = y.endex
@@ -1357,8 +1357,8 @@ func Float64Inter(x, y *Float64) *Float64 {
 		r.end = x.end
 		r.endex = x.endex
 	} else if x.end == y.end {
-		r.start = x.start
-		r.startex = x.startex || y.startex
+		r.end = x.end
+		r.endex = x.endex || y.endex
 	} else {
 		r.end = y.end
 		r.endex = y.endex
